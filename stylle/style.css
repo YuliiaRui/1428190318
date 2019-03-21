@@ -1,0 +1,167 @@
+body {
+    padding: 1%;
+    margin: 1% auto;
+    width: 505px;
+    height: 920px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    background-color: #ffffff;
+}
+
+.text-name {
+    margin: 0 25%;
+}
+
+.profession {
+    color: #808080;
+    font-family: "Arial - Bold MT";
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.photo {
+    position: absolute;
+}
+
+.name {
+    color: #333333;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.block-text {
+    margin-left: 2%;
+}
+
+.text {
+    width: 320px;
+    height: 54px;
+    box-shadow: 0 0 0 1px rgba(60, 44, 0, 0.25);
+    background-color: #fffbc8;
+    margin: 5% 15%;
+    padding: 0 10%;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.text-on-line {
+    margin-left: 85%;
+    font-weight: 600;
+}
+
+.line {
+    border-block-start: 1px black solid;
+    width: 370px;
+    opacity: 0.2;
+    margin-left: auto;
+}
+
+.color-services {
+    border-left: 1px solid black;
+    margin: 0 17%;
+}
+
+.color-services>div {
+    margin-top: 2%;
+}
+
+.green-block {
+    width: 219px;
+    height: 24px;
+    background-color: #3cb305;
+    opacity: 0.4;
+}
+
+.block-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+
+.name-services {
+    font-family: "Arial MT";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 26px;
+    position: absolute;
+}
+
+.blue-block {
+    width: 54px;
+    height: 24px;
+    background-color: #30b6ee;
+    opacity: 0.4;
+}
+
+.blue-block-2 {
+    width: 36px;
+    height: 24px;
+    background-color: #30b6ee;
+    opacity: 0.4;
+}
+
+.number-services>p {
+    margin-top: 2%;
+}
+
+.sum {
+    display: flex;
+    margin: 0 10% 0 27%;
+    justify-content: space-between;
+}
+
+.reviews {
+    display: flex;
+    margin: 4% 2%;
+    justify-content: space-between;
+}
+
+.icon>i {
+    color: blue;
+    margin-right: 5%;
+}
+
+.icon>p {
+    margin-right: 20%;
+}
+
+.comment-date {
+    align-items: center;
+    display: flex;
+}
+
+.comment-date>p {
+    margin-right: 2%;
+}
+
+.text-comment {
+    width: 450px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    background-color: #f2fbff;
+    margin: 2% 0 5% 0;
+}
+
+.write-text {
+    width: 449px;
+    height: 65px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.44), inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+.btn {
+    margin: 2% auto;
+    width: 282px;
+    height: 43px;
+    background-color: #fdd639;
+    border-radius: 30px;
+}
+
+.newComment {
+    display: none;
+}
